@@ -2,7 +2,9 @@
   "name": "plantuml-cli",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "bin": {
+    "png2puml": "./png2puml.mjs"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
