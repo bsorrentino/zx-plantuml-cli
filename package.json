@@ -1,0 +1,17 @@
+{
+  "name": "plantuml-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "plantuml"
+  ],
+  "author": "bsorrentino <bartolomeo.sorrentino@gmail.com> (http://soulsoftware-bsc.blogspot.it/)",
+  "license": "ISC",
+  "dependencies": {
+    "zx": "^4.2.0"
+  }
+}
