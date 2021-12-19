@@ -3,7 +3,7 @@
 
 import { $, argv, path, fs } from 'zx'
 
-const PLANTUML_VERSION = '1.2021.11'
+const PLANTUML_VERSION = '1.2021.15'
 const PLANTUML_RUNTIME = path.join('/usr/local/Cellar',
     'plantuml',
     PLANTUML_VERSION,
