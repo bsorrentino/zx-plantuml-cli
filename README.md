@@ -3,14 +3,18 @@ utilities for [PlantUML]
 
 ## Getting Started 
 
-### Install on MacOS using [homebrew]
+### Install PlantuML on MacOS using [homebrew]
 ```
 brew install plantuml
 ```
 
-### Install on Windows using [chocolatey]
+### Install PlantuML on Windows using [chocolatey]
 ```
 choco install plantuml
+```
+### Install package
+```
+npm install @bsorrentino/zx-plantuml-cli -g
 ```
 
 ## Commands
@@ -18,10 +22,14 @@ choco install plantuml
 ### png2puml
 
 To encode a sprite at gray level 16 from an [PNG] image 
-> run command 
-> `plantuml -encodesprite 16 $1.png > $1.puml` 
-> equivalent to
-> `java -jar plantuml.jar -encodesprite 16 $1.png > $1.puml`
+> behind the scene it run command 
+> ```
+> plantuml -encodesprite 16 $1.png > $1.puml
+>```
+> that is equivalent at
+> ```
+> java -jar plantuml.jar -encodesprite 16 $1.png > $1.puml
+> ```
 
 #### Usage 
 ```
