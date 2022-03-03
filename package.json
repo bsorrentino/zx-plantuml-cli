@@ -1,6 +1,6 @@
 {
-  "name": "@bsorrentino/plantuml-cli",
-  "version": "1.0.0",
+  "name": "@bsorrentino/zx-plantuml-cli",
+  "version": "1.0.2",
   "description": "utilities for PlantUML",
   "bin": {
     "png2puml": "./zx-png2puml.mjs"
@@ -10,14 +10,18 @@
     "url": "https://github.com/bsorrentino/zx-plantuml-cli.git",
     "email": "bartolomeo.sorrentino@gmail.com"
   },
-  "scripts": {},
+  "scripts": {
+    "test": ""
+  },
   "author": "bsorrentino <bartolomeo.sorrentino@gmail.com> (http://soulsoftware-bsc.blogspot.it/)",
   "keywords": [
     "plantuml"
   ],
   "license": "MIT",
   "devDependencies": {
-    "cz-conventional-changelog": "^3.3.0",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "dependencies": {
     "zx": "^5.2.0"
   },
   "config": {
