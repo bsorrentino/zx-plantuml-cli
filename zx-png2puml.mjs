@@ -39,6 +39,9 @@ async function main() {
         await fs.ensureDir(argv.out)
         outfile = path.join(argv.out, basename)
     }
+    else {
+        outfile = path.join( path.dirname(image), basename )
+    }
 
     const outstream = fs.createWriteStream(outfile)
 
