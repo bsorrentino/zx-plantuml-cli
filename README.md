@@ -1,5 +1,5 @@
 # zx-plantuml-cli
-utilities for [PlantUML]
+[ZX] scripts providing utilities for [PlantUML]
 
 ## Getting Started 
 
@@ -42,7 +42,7 @@ Such command interactively ask for :
 * [PlantUML]
 * [PlantUML CLI]
 
-
+[ZX]: https://www.npmjs.com/package/zx
 [PlantUML]: https://plantuml.com/ "PlantUML"
 [homebrew]: https://brew.sh/
 [chocolatey]: https://community.chocolatey.org/
