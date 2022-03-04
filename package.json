@@ -1,6 +1,6 @@
 {
   "name": "@bsorrentino/zx-plantuml-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "utilities for PlantUML",
   "bin": {
     "png2puml": "./zx-png2puml.mjs"
