@@ -1,4 +1,12 @@
+[![npm](https://img.shields.io/npm/v/@bsorrentino/zx-plantuml-cli.svg)](https://www.npmjs.com/package/@bsorrentino/zx-plantuml-cli)&nbsp;
+<img src="https://img.shields.io/github/forks/bsorrentino/zx-plantuml-cli.svg">&nbsp;
+<img src="https://img.shields.io/github/stars/bsorrentino/zx-plantuml-cli.svg">&nbsp;
+<a href="https://github.com/bsorrentino/zx-plantuml-cli/issues">
+<img src="https://img.shields.io/github/issues/bsorrentino/zx-plantuml-cli.svg"></a>&nbsp;
+![npm publishing](https://github.com/bsorrentino/zx-plantuml-cli/actions/workflows/npm-publish.yml/badge.svg)
+
 # zx-plantuml-cli
+
 [ZX] scripts providing utilities for [PlantUML]
 
 ## Getting Started 
