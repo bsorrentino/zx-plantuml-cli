@@ -10,14 +10,14 @@
     "url": "https://github.com/bsorrentino/zx-plantuml-cli.git",
     "email": "bartolomeo.sorrentino@gmail.com"
   },
-  "scripts": {
-    "test": ""
-  },
   "author": "bsorrentino <bartolomeo.sorrentino@gmail.com> (http://soulsoftware-bsc.blogspot.it/)",
   "keywords": [
     "plantuml"
   ],
   "license": "MIT",
+  "scripts": {
+    "test": ""
+  },
   "devDependencies": {
     "cz-conventional-changelog": "^3.3.0"
   },
@@ -28,5 +28,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "engines": {
+    "node": ">=12.0.0"
   }
 }
